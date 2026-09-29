@@ -1,0 +1,1 @@
+{"$GMScript":"v1","%Name":"scr_shadow_lock","isCompatibility":false,"isDnD":false,"name":"scr_shadow_lock","parent":{"name":"Scripts","path":"folders/Scripts.yy"},"resourceType":"GMScript","resourceVersion":"2.0"}

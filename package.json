@@ -1,0 +1,21 @@
+{
+  "name": "shadow-lock",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Shadow Lock — tap when the falling shape lines up with its shadow. Web port of the GameMaker original.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "playwright": "1.56.0",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21",
+    "vitest": "^2.1.9"
+  }
+}

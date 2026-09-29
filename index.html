@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+    <meta name="theme-color" content="#0b0816" />
+    <meta name="description" content="Shadow Lock: tap when the falling shape lines up with its shadow." />
+    <title>Shadow Lock</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23180f2b'/%3E%3Cpath d='M32 10l6.5 14.5 15.5 1.5-11.7 10.5 3.4 15.5L32 44l-13.7 8 3.4-15.5L10 26l15.5-1.5z' fill='%23ffd166'/%3E%3C/svg%3E" />
+    <style>
+      html, body { margin: 0; height: 100%; background: #0b0816; overflow: hidden; overscroll-behavior: none; }
+      canvas { display: block; width: 100vw; height: 100vh; height: 100dvh; touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; }
+      #loading { position: fixed; inset: 0; display: grid; place-items: center; color: #f5f0ff; font: 700 18px system-ui, sans-serif; letter-spacing: .2em; }
+    </style>
+  </head>
+  <body>
+    <canvas id="game"></canvas>
+    <div id="loading">SHADOW LOCK</div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
